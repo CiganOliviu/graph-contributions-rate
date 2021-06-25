@@ -7,3 +7,6 @@ Graphical representation of my contributions rate evolution!
 
 ### Contribution Rates plotter
 ![Website main page](documentation/rates_plotter.JPG)
+
+### Predicted Contributions plotter
+![Website main page](documentation/predicted_plotter.JPG)
