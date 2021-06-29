@@ -1,5 +1,5 @@
-def plot_based_on_data(data_set_one, indexes):
+def plot_based_on_index_and_data(indexes, data_set_one):
 
-	plt.plot(data_set_one, indexes)
+	plt.plot(indexes, data_set_one)
 
 	plt.show()
