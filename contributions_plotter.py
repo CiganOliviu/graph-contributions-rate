@@ -1,5 +1,4 @@
-import matplotlib.pyplot as plt
-plt.style.use('ggplot')
+from plotter import plot_based_on_data_and_indexes
 
 contributions = [919, 921, 935, 964, 973, 1000, 1012, 1014, 1023, 1076,
 		  1090, 1130, 1145, 1155, 1167, 1194, 1237, 1278, 1302, 
@@ -10,6 +9,5 @@ indexes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,
           17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
           31, 32, 33, 34, 35, 36]
 
-plt.plot(contributions, indexes)
 
-plt.show()
+plot_based_on_data_and_indexes(contributions, indexes)
