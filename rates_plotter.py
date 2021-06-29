@@ -1,5 +1,4 @@
-import matplotlib.pyplot as plt
-plt.style.use('ggplot')
+from plotter import plot_based_on_indexes_and_data
 
 indexes = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24] 
 
@@ -9,6 +8,5 @@ rates =   [8.014705882352942, 8.18840579710145, 8.184397163120567, 8.21830985915
 		   8.29585798816568, 8.269005847953217, 8.30813953488372, 8.38728323699422, 8.331428571428571,
 		   9.164772727272727, 9.202247191011235, 9.692737430167599, 9.777777777777779]
 
-plt.plot(indexes, rates)
+plot_based_on_indexes_and_data(indexes, rates)
 
-plt.show()
