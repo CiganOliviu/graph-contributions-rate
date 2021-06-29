@@ -1,12 +1,12 @@
 # graph-contributions-rate
 Graphical representation of my contributions rate evolution!
 
-### Contributions plotter at 28.06
+### Contributions plotter at 29.06
 
 ![Website main page](documentation/plotter.JPG)
 
-### Contribution Rates plotter at 28.06
+### Contribution Rates plotter at 29.06
 ![Website main page](documentation/rates_plotter.JPG)
 
-### Predicted Contributions plotter at 28.06
+### Predicted Contributions plotter at 29.06
 ![Website main page](documentation/predicted_plotter.JPG)
