@@ -25,6 +25,10 @@ def get_min_value(data):
 	return result
 
 
+def get_rates_difference(data):
+
+	return get_max_value(data) - get_min_value(data)
+
 print(get_max_value(contributions))
 print(get_max_value(predictions))
 print(get_max_value(rates))
@@ -32,3 +36,5 @@ print()
 print(get_min_value(contributions))
 print(get_min_value(predictions))
 print(get_min_value(rates))
+print()
+print(get_rates_difference(rates))
