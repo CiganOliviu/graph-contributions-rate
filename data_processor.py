@@ -31,6 +31,16 @@ def get_rates_difference(data):
 	return get_max_value(data) - get_min_value(data)
 
 
+def get_last_week_data(data):
+
+	return data[-7:]
+
+
+def get_last_month_data(data):
+
+	return data[-30:]
+
+
 def list_info():
 	print("Max value for contributions " + str(get_max_value(contributions)))
 	print("Max value for predictions " + str(get_max_value(predictions)))
@@ -41,7 +51,10 @@ def list_info():
 	print("Min value for rates " + str(get_min_value(rates)))
 	print()
 	print("Rates difference " + str(get_rates_difference(rates)))
-
+	print()
+	print(get_last_week_data(contributions))
+	print(get_last_week_data(predictions))
+	print(get_last_week_data(rates))
 
 if __name__ == '__main__':
 	list_info()
