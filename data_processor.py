@@ -3,6 +3,7 @@ from data_source import contributions
 from data_source import predictions
 from data_source import rates
 
+
 def get_max_value(data):
 
 	result = 0
@@ -29,12 +30,18 @@ def get_rates_difference(data):
 
 	return get_max_value(data) - get_min_value(data)
 
-print(get_max_value(contributions))
-print(get_max_value(predictions))
-print(get_max_value(rates))
-print()
-print(get_min_value(contributions))
-print(get_min_value(predictions))
-print(get_min_value(rates))
-print()
-print(get_rates_difference(rates))
+
+def list_info():
+	print("Max value for contributions " + str(get_max_value(contributions)))
+	print("Max value for predictions " + str(get_max_value(predictions)))
+	print("Max value for rates " + str(get_max_value(rates)))
+	print()
+	print("Min value for contributions " + str(get_min_value(contributions)))
+	print("Min value for predictions " + str(get_min_value(predictions)))
+	print("Min value for rates " + str(get_min_value(rates)))
+	print()
+	print("Rates difference " + str(get_rates_difference(rates)))
+
+
+if __name__ == '__main__':
+	list_info()
