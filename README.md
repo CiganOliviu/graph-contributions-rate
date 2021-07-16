@@ -10,3 +10,6 @@ Graphical representation of my contributions rate evolution!
 
 ### Predicted Contributions plotter at 16.07
 ![Website main page](documentation/predicted_plotter.JPG)
+
+### Statistics at 16.07
+![Website main page](documentation/additional_info.JPG)
