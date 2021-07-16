@@ -1,1 +1,6 @@
-# script
+from data_source import predictions_indexes_last_month, predictions_last_month
+from plotter import plot_based_on_indexes_and_data
+
+print(len(predictions_last_month))
+
+plot_based_on_indexes_and_data(predictions_indexes_last_month, predictions_last_month)
