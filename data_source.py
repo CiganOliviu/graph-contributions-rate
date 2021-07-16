@@ -50,3 +50,22 @@ rates_last_month = rates[-30:]
 rate_indexes_last_month = [i for i in range(len(rates_last_month))]
 
 # ====================================================================
+
+contributions_last_week = contributions[-7:]
+
+contributions_indexes_last_week = [i for i in range(len(contributions_last_week))]
+
+# ====================================================================
+
+predictions_last_week = predictions[-7:]
+
+predictions_indexes_last_week = [i for i in range(len(predictions_last_week))]
+
+# ====================================================================
+
+rates_last_week = rates[-7:]
+
+rate_indexes_last_week = [i for i in range(len(rates_last_week))]
+
+# ====================================================================
+
