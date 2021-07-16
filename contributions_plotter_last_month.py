@@ -1,1 +1,5 @@
-# script
+from data_source import contributions_last_month, contributions_indexes_last_month
+from plotter import plot_based_on_data_and_indexes
+
+
+plot_based_on_data_and_indexes(contributions_last_month, contributions_indexes_last_month)
