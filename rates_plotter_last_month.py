@@ -1,1 +1,6 @@
-# script
+from data_source import rates_last_month, rate_indexes_last_month
+from plotter import plot_based_on_indexes_and_data
+
+
+plot_based_on_indexes_and_data(rate_indexes_last_month, rates_last_month)
+
