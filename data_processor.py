@@ -52,9 +52,9 @@ def list_info():
 	print()
 	print("Rates difference " + str(get_rates_difference(rates)))
 	print()
-	print(get_last_week_data(contributions))
-	print(get_last_week_data(predictions))
-	print(get_last_week_data(rates))
+	print(contributions[-7:])
+	print(predictions[-7:])
+	print(rates[-7:])
 
 if __name__ == '__main__':
 	list_info()
