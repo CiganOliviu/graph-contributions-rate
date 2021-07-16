@@ -1,6 +1,3 @@
-from data_processor import *
-
-
 contributions = [919, 921, 935, 964, 973, 1000, 1012, 1014, 1023, 1076,
 		  1090, 1130, 1145, 1155, 1167, 1194, 1237, 1278, 1302, 1320, 
 		  1330, 1341, 1350, 1357, 1365, 1375, 1383, 1402, 1414, 1429, 
@@ -36,19 +33,19 @@ rates_indexes = [i for i in range(len(rates))]
 
 # ====================================================================
 
-contributions_last_month = get_last_month_data(contributions)
+contributions_last_month = contributions[-30:]
 
 contributions_indexes_last_month = [i for i in range(len(contributions_last_month))]
 
 # ====================================================================
 
-predictions_last_month = get_last_month_data(predictions)
+predictions_last_month = predictions[-30:]
 
 predictions_indexes_last_month = [i for i in range(len(predictions_last_month))]
 
 # ====================================================================
 
-rates_last_month = get_last_month_data(rates)
+rates_last_month = rates[-30:]
 
 rate_indexes_last_month = [i for i in range(len(rates_last_month))]
 
