@@ -1,0 +1,5 @@
+from data_source import predictions_indexes_last_week, predictions_last_week
+from plotter import plot_based_on_indexes_and_data
+
+
+plot_based_on_indexes_and_data(predictions_indexes_last_week, predictions_last_week)
