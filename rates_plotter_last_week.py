@@ -1,0 +1,6 @@
+from data_source import rates_last_week, rate_indexes_last_week
+from plotter import plot_based_on_indexes_and_data
+
+
+plot_based_on_indexes_and_data(rate_indexes_last_week, rates_last_week)
+
