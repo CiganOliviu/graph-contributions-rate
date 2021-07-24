@@ -1,7 +1,7 @@
 import sys
-from data_source import contributions
-from data_source import predictions
-from data_source import rates
+from data_source import contributions, contributions_indexes
+from data_source import predictions, predictions_indexes
+from data_source import rates, rates_indexes
 
 
 def get_max_value(data):
