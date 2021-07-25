@@ -22,4 +22,4 @@ Graphical representation of my contributions rate evolution!
 ![Website main page](documentation/predicted_plotter_last_week.JPG)
 
 ### Statistics at 25.07
-![Website main page](documentation/additional_info.JPG)
+![Website main page](documentation/info.JPG)
