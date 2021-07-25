@@ -23,3 +23,5 @@ Graphical representation of my contributions rate evolution!
 
 ### Statistics at 25.07
 ![Website main page](documentation/info.JPG)
+
+![Website main page](documentation/data-processor-graphs.JPG)
