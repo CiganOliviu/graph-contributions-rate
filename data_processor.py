@@ -17,7 +17,7 @@ def get_max_value(data):
 
 def get_min_value(data):
 
-	result = sys.maxsize 
+	result = sys.maxsize
 
 	for item in data:
 		if result > item:
