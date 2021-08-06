@@ -1,29 +1,26 @@
 # graph-contributions-rate
 Graphical representation of my contributions rate evolution!
 
-### Contributions plotter at 04.08
+### Contributions plotter at 05.08
 
-![Website main page](documentation/plotter.JPG)
+![Website main page](documentation/contributions_plotter.png)
 
-### Contributions plotter last week, update at 04.08
+### Contributions plotter last week, update at 05.08
 
-![Website main page](documentation/plotter_last_week.JPG)
+![Website main page](documentation/contributions_plotter_last_week.png)
 
-### Contribution Rates plotter at 04.08
-![Website main page](documentation/rates_plotter.JPG)
+### Contribution Rates plotter at 05.08
+![Website main page](documentation/rates_plotter.png)
 
-### Contribution Rates plotter last week, update at 04.08
-![Website main page](documentation/rates_plotter_last_week.JPG)
+### Contribution Rates plotter last week, update at 05.08
+![Website main page](documentation/rates_plotter_last_week.png)
 
-### Predicted Contributions plotter at 04.08
-![Website main page](documentation/predicted_plotter.JPG)
+### Predicted Contributions plotter at 05.08
+![Website main page](documentation/predicted_plotter.png)
 
-### Predicted Contributions plotter last week, update at 04.08
-![Website main page](documentation/predicted_plotter_last_week.JPG)
+### Predicted Contributions plotter last week, update at 05.08
+![Website main page](documentation/predicted_plotter_last_week.png)
 
-### Statistics at 04.08
-![Website main page](documentation/info.JPG)
+### Statistics at 05.08
 
-![Website main page](documentation/data-processor-graphs.JPG)
-
-![Website main page](documentation/data-processor-graphs-rates-difference.JPG)
+![Website main page](documentation/data_processor_graph.png)
