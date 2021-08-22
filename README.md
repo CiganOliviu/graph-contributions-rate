@@ -21,6 +21,6 @@ Graphical representation of my contributions rate evolution!
 ### Predicted Contributions plotter last week, update at 17.08
 ![Website main page](documentation/predicted_plotter_last_week.png)
 
-### Statistics at 17.08
+### Statistics at 22.08
 
 ![Website main page](documentation/data_processor_graph.png)
